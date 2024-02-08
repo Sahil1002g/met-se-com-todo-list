@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>home page</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="head">
+        <section class="item">
+    <button class="button"> Add todo</button>
+    <h1>TODO</h1>
+    </section>
+    </div>
+    <section class="todo">
+    <section class="box">
+        <section>
+            <div>
+            <h1>Complete HTML Learning </h1>
+            
+            <p>Learn all HTML semantic tags, learn new article tag.</p>
+        </div>
+          <button><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        </section>
+        <section>
+            <div class="content">
+            <h1>Learn map() method</h1>
+            <p>Learn how to implement map method in javascript.</p>
+            </div>
+            
+            <button><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        
+        </section>
+        <section>
+            <div>
+            <h1>Take notes</h1>
+            <p>Take notes regarding css fundamentals</p> 
+        </div>
+            <button><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        </section> 
+        </section>
+    </section>
+</section>
+
+<!-- poppup -->
+<section class="d-non" id="pop">   
+<main class="poup">
+ <section class="pop-items">
+ <form action="#">
+<label for="name">Todo name</label>
+<input type="text" id="name" class="todo">
+
+<label for="description">Description</label>
+<textarea name="" id="description" cols="30" rows="4" class="dis"></textarea>
+
+<label for="">Priority</label>
+<select name="">
+    <option value="">_ _ _Select Priority_ _ _ </option>
+    <option value="High" id="select">High</option>
+    <option value="Medium" id="select">Medium</option>
+    <option value="Low" id="select">Low</option>
+
+</select>
+</form>
+<section class="btn">
+<button id="save">Save</button>
+<button id="cancle">Cancle</button>
+</section>
+</section>
+</main>
+</section>
+<script src="/js/index.js"></script>
+</body>
+</html>
